@@ -71,6 +71,7 @@ dependencies {
 
   // SplashScreen compat library
   implementation 'androidx.core:core-splashscreen:1.0.1'
+  implementation "org.jetbrains.kotlin:kotlin-script-runtime:1.8.22"
 
   // TUTORIAL DEPENDENCIES HERE
 
