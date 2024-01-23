@@ -40,20 +40,18 @@ val a = 10
 val b = 20
 val c = 30
 
-if (a > b && a > c) {
-    println("a is the largest number.")
-} else {
-    println("a is not the largest number.")
-}
-
-if (a > b || a > c) {
-    println("a is larger than b or c.")
-} else {
-    println("a is not larger than b or c.")
-}
-
 val isALargest = a > b && a > c
 println("It is ${isALargest} that a is the largest number")
+
+
+val raining = true
+val temperature = 35
+
+val carryUmbrella = raining || temperature > 30
+println("Carry an umbrella: $carryUmbrella")
+
+val isTrue = true
+println(!isTrue)
 
 val hello: String? = null
 println(hello?.length)
