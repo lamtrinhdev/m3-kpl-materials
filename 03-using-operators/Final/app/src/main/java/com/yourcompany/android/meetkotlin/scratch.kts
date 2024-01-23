@@ -1,6 +1,15 @@
 val sum = 3+2
 println(sum)
 
+val result = 6 / 2
+println(result)
+
+val remainder = 11 % 2
+println(remainder)
+
+val product = 3 * 3
+println(product)
+
 var count = 5
 count += 1
 println(count)
@@ -15,13 +24,6 @@ count ++
 println(count)
 count--
 println(count)
-
-val result = 6 / 2
-println(result)
-
-val remainder = 11 % 2
-println(remainder)
-
 
 val age = 14
 if (age < 16) {
