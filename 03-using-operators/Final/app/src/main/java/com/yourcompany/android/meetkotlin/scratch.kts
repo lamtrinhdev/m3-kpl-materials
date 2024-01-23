@@ -1,26 +1,50 @@
-val age: Int = 28
-println("I am $age years old!")
+val sum = 3+2
+println(sum)
 
-val name: String = "John"
-println("My name is $name")
+var count = 5
+count += 1
+println(count)
+count -=3
+println(count)
+count *= 2
+println(count)
+count /= 2
+println(count)
 
-val fraction: Float = 0.5f
-println("Fraction 1/2 is = $fraction")
+count ++
+println(count)
+count--
+println(count)
 
-val pi: Double = 3.14
-println("Pi is = $pi")
+val result = 6 / 2
+println(result)
 
-val character: Char = 'A'
-println("First letter of the alphabet is $character")
+val remainder = 11 % 2
+println(remainder)
 
-val earthIsFlat: Boolean = false
-println("It is $earthIsFlat that the earth is flat")
 
-val marsIsRed: Boolean = true
-println("It is $marsIsRed that Mars is red")
+val age = 14
+if (age < 16) {
+    println("You cant drive")
+} else {
+    println("You can drive")
+}
 
-val fruits: Array<String> = arrayOf("Apple", "Banana", "Orange")
-println("I like ${fruits[0]}s")
+val a = 10
+val b = 20
+val c = 30
 
-val theAnswer = 42
-println("The answer to life, universe and everything is $theAnswer")
+if (a > b && a > c) {
+    println("a is the largest number.")
+} else {
+    println("a is not the largest number.")
+}
+
+if (a > b || a > c) {
+    println("a is larger than b or c.")
+} else {
+    println("a is not larger than b or c.")
+}
+
+val isALargest = a > b && a > c
+println("It is ${isALargest} that a is the largest number")
