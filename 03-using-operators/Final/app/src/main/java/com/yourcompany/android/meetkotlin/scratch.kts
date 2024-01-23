@@ -1,14 +1,18 @@
 val sum = 3+2
 println(sum)
 
-val result = 6 / 2
-println(result)
+val difference = 10 - 2
+println(difference)
+
+val product = 3 * 3
+println(product)
+
+val quotient = 6 / 2
+println(quotient)
 
 val remainder = 11 % 2
 println(remainder)
 
-val product = 3 * 3
-println(product)
 
 var count = 5
 count += 1
