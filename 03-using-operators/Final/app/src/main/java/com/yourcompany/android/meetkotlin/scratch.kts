@@ -48,3 +48,9 @@ if (a > b || a > c) {
 
 val isALargest = a > b && a > c
 println("It is ${isALargest} that a is the largest number")
+
+val hello: String? = null
+println(hello?.length)
+
+val message = hello ?: "value is null"
+println(message)
