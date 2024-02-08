@@ -1,5 +1,3 @@
-val count = 4
-
 fun playBabyShark(count: Int) {
     for (i in 1..count) {
         println("Baby Shark, doo-doo, doo-doo, doo-doo")
