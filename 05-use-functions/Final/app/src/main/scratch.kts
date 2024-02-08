@@ -29,6 +29,5 @@ fun attemptToDispenseSnack(coins: Int, snack: String): String {
     }
 }
 
-val coins = 115
-val snack = "Soda"
-println(attemptToDispenseSnack(coins, snack))
+println(attemptToDispenseSnack(coins = 115, snack = "Soda"))
+println(attemptToDispenseSnack(coins = 15, snack = "Chips"))
