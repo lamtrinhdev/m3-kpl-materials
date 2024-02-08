@@ -1,11 +1,12 @@
-fun playBabyShark(count: Int) {
+fun playBabyShark(count: Int = 3, shark: String = "Baby") {
     for (i in 1..count) {
-        println("Baby Shark, doo-doo, doo-doo, doo-doo")
+        println("$shark Shark, doo-doo, doo-doo, doo-doo")
     }
-    println("Baby shark")
+    println("$shark shark")
 }
 
-playBabyShark(3)
+playBabyShark()
+playBabyShark(shark = "Mommy")
 
 // Get the cost of the snack based on its name
 fun getSnackCost(snack: String): Int {
