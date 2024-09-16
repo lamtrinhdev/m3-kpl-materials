@@ -4,7 +4,7 @@ This repo contains all the downloadable materials and projects associated with t
 
 ### Foundational Tools in Android Course 
 
-This course is part of the following [Kodeco]((https://www.kodeco.com/home) programs:
+This course is part of the following [Kodeco](https://www.kodeco.com/home) programs:
 - [Foundational Tools in Android](https://www.kodeco.com/android/programs/foundational-tools-android), which you can take as an on-demand certificate program.
 - [Android Ready](https://www.kodeco.com/android/programs/android-ready), which you can take as an on-demand certificate program or live bootcamp.
 
